@@ -1,12 +1,11 @@
 def reverse_each_word(string)
 
   array = string.split(" ")
-  backwards = []
+#  backwards = []
   array.collect do |word|
-
-  backwards.push(word.reverse)
-end
-   backwards.join(" ")
+    word.reverse
+#  backwards.push(word.reverse)
+end.join(" ")
 end
 
 
