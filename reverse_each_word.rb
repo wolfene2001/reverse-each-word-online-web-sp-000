@@ -1,21 +1,21 @@
 def reverse_each_word(string)
 
-  string = string.split(" ")
+  array = string.split(" ")
 #  backwards = []
-  string.each do |char|
+  string.each do |word|
   string.reverse |char|
 
    string.join(" ")
 end
 end
 
-def reverse_each_word(string)
-
-  string = string.split(" ")
-#  backwards = []
-  string.collect do |char|
-  string.reverse |char|
-
-   string.join(" ")
-end
-end
+# def reverse_each_word(string)
+# 
+#   string = string.split(" ")
+# #  backwards = []
+#   string.collect do |char|
+#   string.reverse |char|
+# 
+#    string.join(" ")
+# end
+# end
