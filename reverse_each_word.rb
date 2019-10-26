@@ -5,6 +5,6 @@ def reverse_each_word(string)
   string.each do |char|
   string.reverse |char|
 
-  return string.join(" ")
+   string.join(" ")
 end
 end
