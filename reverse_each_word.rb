@@ -1,9 +1,9 @@
 def reverse_each_word(string)
 
   string = string.split(" ")
-  backwards = []
+#  backwards = []
   string.each do |char|
   string.reverse |char|
   end
-  return backwards.join(" ")
+  return string.join(" ")
 end
